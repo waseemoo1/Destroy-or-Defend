@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.controller">
+    <StackPane alignment="CENTER">
+        <ImageView>
+            <image>
+
+                <Image url="/resorce/Asset 90dpi.png"/>
+            </image>
+        </ImageView>
+    </StackPane>
+    <Label layoutX="1180" layoutY="390" text="          " prefHeight="40" prefWidth="200"  onMouseClicked="#changeSceneOnButtonClicked">
+        <font>
+            <Font size="50"/>
+        </font>
+    </Label>
+    <Label layoutX="1100" layoutY="390" text="          " prefHeight="40" prefWidth="200"  onMouseClicked="#changeSceneOnButtonClicked">
+        <font>
+            <Font size="50"/>
+        </font>
+    </Label>
+    <Label layoutX="250" layoutY="390" text="          " prefHeight="40" prefWidth="200"  onMouseClicked="#OnButtonClicked">
+        <font>
+            <Font size="50"/>
+        </font>
+    </Label>
+    <Label layoutX="350" layoutY="390" text="          " prefHeight="40" prefWidth="200"  onMouseClicked="#OnButtonClicked">
+        <font>
+            <Font size="50"/>
+        </font>
+    </Label>
+</AnchorPane>
+
